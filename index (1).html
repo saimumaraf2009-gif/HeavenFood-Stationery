@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Heaven Food &amp; Stationery — Chawkbazar, Chattogram</title>
+<meta name="description" content="Heaven Food & Stationery, DC Road, Chawkbazar, Chattogram. Stationery, food, gifts, toys, Islamic books, printing, photocopy, binding, lamination, online form fill-up. Open daily 9 AM–12 AM.">
+<meta property="og:image" content="logo.jpg">
+<meta name="theme-color" content="#0B1426">
+<link rel="icon" href="logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0B1426;--bg2:#101C36;--card:#15233F;--line:rgba(255,255,255,.09);--text:#F4F1E8;--muted:#A9B3C7;--gold:#FFC83D;--blue:#4DA3FF;--orange:#FF8A4C;--pink:#FF5FA2;--teal:#2EC4B6}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{font-family:Inter,"Hind Siliguri",sans-serif;background:var(--bg);color:var(--text);line-height:1.65;overflow-x:hidden}
+body.bn{font-family:"Hind Siliguri",Inter,sans-serif}
+h1,h2,h3{font-family:"Playfair Display","Hind Siliguri",serif;line-height:1.18}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px;position:relative;z-index:2}
+section{padding:68px 0;position:relative}
+.eyebrow{font-size:.74rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:10px}
+.bn .eyebrow{letter-spacing:.04em}
+h2{font-size:clamp(1.7rem,4.5vw,2.4rem);margin-bottom:10px}
+.lead{color:var(--muted);max-width:620px;margin-bottom:30px}
+.grad{background:linear-gradient(90deg,var(--gold),var(--orange),var(--pink));-webkit-background-clip:text;background-clip:text;color:transparent}
+/* splash */
+#splash{position:fixed;inset:0;z-index:200;background:radial-gradient(circle at 50% 40%,#1B2D52,#070D1A);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;transition:opacity .6s,visibility .6s}
+#splash.off{opacity:0;visibility:hidden}
+#splash h1{font-size:clamp(2.6rem,12vw,5rem);letter-spacing:.2em;color:var(--gold);animation:pop .9s both}
+#splash p{color:var(--muted);letter-spacing:.3em;font-size:.72rem;margin-top:10px;animation:pop .9s .3s both}
+#splash .em{font-size:2rem;margin-top:22px;letter-spacing:.5em;animation:pop .9s .6s both}
+#splash button{position:absolute;bottom:34px;background:none;border:1px solid var(--line);color:var(--muted);padding:8px 20px;border-radius:20px;cursor:pointer;font:inherit}
+@keyframes pop{from{opacity:0;transform:translateY(18px) scale(.95)}to{opacity:1;transform:none}}
+/* floating bg */
+#float{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+#float span{position:absolute;bottom:-60px;opacity:.13;animation:rise linear infinite}
+@keyframes rise{to{transform:translateY(-115vh) rotate(40deg)}}
+/* top */
+header{position:sticky;top:0;z-index:50;background:rgba(11,20,38,.82);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:62px}
+.logo{font-family:"Playfair Display",serif;font-weight:800;font-size:1.35rem;letter-spacing:.14em;color:var(--gold);line-height:1}
+.logo{display:flex;align-items:center;gap:10px}.logo img{border-radius:12px;background:#fff;object-fit:cover}.sl{width:130px;height:130px;border-radius:26px;background:#fff;margin-bottom:22px;animation:pop .9s both;box-shadow:0 10px 40px rgba(0,0,0,.4)}
+.logo small{display:block;font:600 .52rem Inter,sans-serif;letter-spacing:.24em;color:var(--muted);margin-top:3px}
+nav ul{display:flex;gap:24px;list-style:none;font-size:.8rem;font-weight:600;letter-spacing:.06em}
+nav a{color:var(--muted);transition:.2s}nav a:hover{color:var(--gold)}
+.tools{display:flex;gap:10px;align-items:center}
+.open{font-size:.7rem;font-weight:700;padding:5px 10px;border-radius:20px;background:rgba(46,196,182,.15);color:var(--teal);white-space:nowrap}
+.open::before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--teal);margin-right:6px;animation:blink 1.6s infinite}
+@keyframes blink{50%{opacity:.25}}
+.lang{border:1px solid var(--gold);background:none;color:var(--gold);padding:5px 13px;border-radius:20px;font:700 .76rem Inter,sans-serif;cursor:pointer}
+.lang:hover{background:var(--gold);color:var(--bg)}
+.btn{display:inline-block;padding:13px 26px;border-radius:30px;font-weight:700;font-size:.9rem;border:1.5px solid var(--gold);transition:.25s;cursor:pointer}
+.btn.p{background:var(--gold);color:#101828;box-shadow:0 8px 24px rgba(255,200,61,.25)}
+.btn.p:hover{transform:translateY(-3px);box-shadow:0 12px 30px rgba(255,200,61,.4)}
+.btn.s{color:var(--gold);background:none}.btn.s:hover{background:rgba(255,200,61,.12)}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+/* hero */
+.hero{padding:56px 0 64px}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}
+.hero h1{font-size:clamp(2.2rem,6vw,3.8rem);margin-bottom:18px}
+.hero p{color:var(--muted);max-width:480px;margin-bottom:28px}
+.tiles{display:grid;grid-template-columns:1fr 1fr;gap:14px;max-width:380px;margin:auto}
+.tile{aspect-ratio:1/1;border-radius:22px;display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:2.8rem;gap:6px;animation:bob 4s ease-in-out infinite}
+.tile small{font:700 .68rem Inter,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:rgba(0,0,0,.65)}
+.tile:nth-child(1){background:var(--blue)}.tile:nth-child(2){background:var(--orange);animation-delay:.6s;transform:translateY(22px)}
+.tile:nth-child(3){background:var(--pink);animation-delay:1.2s}.tile:nth-child(4){background:var(--teal);animation-delay:1.8s;transform:translateY(22px)}
+@keyframes bob{50%{translate:0 -10px}}
+/* marquee */
+.mq{overflow:hidden;border-block:1px solid var(--line);background:var(--bg2);padding:13px 0;position:relative;z-index:2}
+.mq div{display:flex;gap:34px;width:max-content;animation:slide 26s linear infinite;font-weight:600;color:var(--muted);white-space:nowrap}
+.mq b{color:var(--gold)}
+@keyframes slide{to{transform:translateX(-50%)}}
+/* cards */
+.grid{display:grid;gap:16px}
+.cats{grid-template-columns:repeat(4,1fr)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px;transition:.3s;position:relative;overflow:hidden}
+.card::before{content:"";position:absolute;inset:0 0 auto 0;height:4px;background:var(--c,var(--gold))}
+.card:hover{transform:translateY(-6px) rotate(-.4deg);border-color:var(--c,var(--gold));box-shadow:0 16px 36px rgba(0,0,0,.35)}
+.card .ic{font-size:2.2rem;margin-bottom:8px;display:block;transition:.3s}
+.card:hover .ic{transform:scale(1.2) rotate(-8deg)}
+.card h3{font-size:1.15rem;margin-bottom:6px}
+.card p{font-size:.88rem;color:var(--muted)}
+.more{display:inline-block;margin-top:12px;font-size:.8rem;font-weight:700;color:var(--c,var(--gold))}
+.alt{background:var(--bg2)}
+/* catalogue */
+.ctrl{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:22px}
+.ctrl input{flex:1;min-width:200px;padding:13px 18px;border:1px solid var(--line);border-radius:30px;font:inherit;background:var(--card);color:var(--text)}
+.ctrl input:focus{outline:2px solid var(--gold)}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{padding:9px 17px;border-radius:30px;border:1px solid var(--line);background:var(--card);font:600 .8rem inherit;font-family:inherit;cursor:pointer;color:var(--muted);transition:.2s}
+.chip.on{background:var(--gold);color:#101828;border-color:var(--gold)}
+.prod{grid-template-columns:repeat(4,1fr)}
+.prod .card{padding:18px;animation:pop .4s both}
+.tag{font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:var(--c)}
+.prod h3{font-size:1rem;margin:6px 0 8px;font-family:inherit;font-weight:600}
+.ask{font-size:.76rem;font-weight:700;color:var(--gold)}
+.empty{display:none;text-align:center;color:var(--muted);padding:30px}
+.note{font-size:.82rem;color:var(--muted);margin-top:18px}
+.svc{grid-template-columns:repeat(5,1fr)}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+.pts{list-style:none}
+.pts li{padding:14px 0;border-bottom:1px solid var(--line);font-size:.94rem}
+.pts li::before{content:"✦";color:var(--gold);margin-right:10px}
+.vgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:28px}
+.vgrid div{border:1px solid var(--line);background:var(--card);border-radius:18px;padding:20px}
+.vgrid b{display:block;color:var(--gold);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;margin-bottom:6px}
+footer{background:#070D1A;color:var(--muted);font-size:.82rem;padding:26px 0 30px;text-align:center}
+/* bottom nav */
+.bot{display:none;position:fixed;left:0;right:0;bottom:0;z-index:80;background:rgba(11,20,38,.95);backdrop-filter:blur(12px);border-top:1px solid var(--line);padding:6px 4px calc(6px + env(safe-area-inset-bottom,0px));justify-content:space-around}
+.bot a{display:flex;flex-direction:column;align-items:center;font-size:.62rem;font-weight:600;color:var(--muted);gap:1px;padding:2px 8px}
+.bot a span{font-size:1.3rem}
+.bot a.wa{color:#25D366}
+.fade{opacity:0;transform:translateY(20px);transition:.7s}.fade.in{opacity:1;transform:none}
+@media(max-width:900px){
+.cats,.prod{grid-template-columns:repeat(2,1fr)}.svc{grid-template-columns:repeat(2,1fr)}
+.hero .wrap,.about,.vgrid{grid-template-columns:1fr}
+.hero{padding:34px 0 44px}.tiles{max-width:280px}
+section{padding:46px 0}
+nav{display:none}.bot{display:flex}
+body{padding-bottom:70px}
+.open{display:none}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}.fade{opacity:1;transform:none}#float{display:none}}
+</style>
+</head>
+<body>
+<div id="splash"><img class="sl" src="logo.jpg" alt="Heaven Food logo"><h1>HEAVEN</h1><p>FOOD &amp; STATIONERY</p><div class="em">✏️ 🍪 🎁 📚</div><button id="skip">Skip ›</button></div>
+<div id="float" aria-hidden="true"></div>
+
+<header><div class="wrap nav">
+<a href="#home" class="logo"><img src="logo.jpg" alt="Heaven Food logo" width="44" height="44"><span>HEAVEN<small>FOOD &amp; STATIONERY</small></span></a>
+<nav><ul>
+<li><a href="#home" data-en="HOME" data-bn="হোম">HOME</a></li>
+<li><a href="#catalogue" data-en="CATALOGUE" data-bn="পণ্য">CATALOGUE</a></li>
+<li><a href="#services" data-en="SERVICES" data-bn="সেবা">SERVICES</a></li>
+<li><a href="#about" data-en="ABOUT" data-bn="পরিচিতি">ABOUT</a></li>
+<li><a href="#contact" data-en="CONTACT" data-bn="যোগাযোগ">CONTACT</a></li>
+</ul></nav>
+<div class="tools"><span class="open" id="open"></span><button class="lang" id="lang" aria-label="Language">EN</button></div>
+</div></header>
+
+<main>
+<section class="hero" id="home"><div class="wrap">
+<div class="fade">
+<div class="eyebrow" data-en="Your neighbourhood store" data-bn="আপনার পাড়ার দোকান">আপনার পাড়ার দোকান</div>
+<h1 data-en="Everything You Need, <span class='grad'>All in One Place.</span>" data-bn="আপনার যা প্রয়োজন, <span class='grad'>সবই এক জায়গায়।</span>">আপনার যা প্রয়োজন, <span class="grad">সবই এক জায়গায়।</span></h1>
+<p data-en="From everyday stationery to food, gifts, toys and handy document services — Heaven has it all, open till midnight." data-bn="প্রতিদিনের স্টেশনারি থেকে খাবার, উপহার, খেলনা আর দরকারি ডকুমেন্ট সেবা — সবই হেভেনে, খোলা রাত ১২টা পর্যন্ত।">প্রতিদিনের স্টেশনারি থেকে খাবার, উপহার, খেলনা আর দরকারি ডকুমেন্ট সেবা — সবই হেভেনে, খোলা রাত ১২টা পর্যন্ত।</p>
+<div class="btns">
+<a class="btn p" href="#catalogue" data-en="Explore Our Collection" data-bn="আমাদের পণ্য দেখুন">আমাদের পণ্য দেখুন</a>
+<a class="btn s" href="#contact" data-en="Contact Us" data-bn="যোগাযোগ করুন">যোগাযোগ করুন</a>
+</div></div>
+<div class="tiles fade" aria-hidden="true">
+<div class="tile">✏️<small>Stationery</small></div><div class="tile">🍪<small>Food</small></div>
+<div class="tile">🎁<small>Gifts</small></div><div class="tile">📚<small>Books</small></div>
+</div>
+</div></section>
+
+<div class="mq" aria-hidden="true"><div id="mq"></div></div>
+
+<section id="categories"><div class="wrap">
+<div class="eyebrow" data-en="What we offer" data-bn="আমরা যা দিই">আমরা যা দিই</div>
+<h2 data-en="Explore Our Categories" data-bn="আমাদের বিভাগসমূহ">আমাদের বিভাগসমূহ</h2>
+<p class="lead" data-en="Four worlds under one roof." data-bn="এক ছাদের নিচে চারটি মজার জগৎ।">এক ছাদের নিচে চারটি মজার জগৎ।</p>
+<div class="grid cats">
+<a class="card fade" style="--c:var(--blue)" href="#catalogue" data-cat="stationery"><span class="ic">✏️</span><h3 data-en="Stationery" data-bn="স্টেশনারি">স্টেশনারি</h3><p data-en="School, college, office, art and craft essentials." data-bn="স্কুল, কলেজ, অফিস, আর্ট ও ক্রাফট সামগ্রী।">স্কুল, কলেজ, অফিস, আর্ট ও ক্রাফট সামগ্রী।</p><span class="more" data-en="Explore →" data-bn="দেখুন →">দেখুন →</span></a>
+<a class="card fade" style="--c:var(--orange)" href="#catalogue" data-cat="food"><span class="ic">🍪</span><h3 data-en="Food Products" data-bn="খাবারের পণ্য">খাবারের পণ্য</h3><p data-en="Everyday food products and refreshments." data-bn="প্রতিদিনের খাবার ও নাস্তার পণ্য।">প্রতিদিনের খাবার ও নাস্তার পণ্য।</p><span class="more" data-en="Explore →" data-bn="দেখুন →">দেখুন →</span></a>
+<a class="card fade" style="--c:var(--pink)" href="#catalogue" data-cat="gifts"><span class="ic">🎁</span><h3 data-en="Gifts &amp; Toys" data-bn="উপহার ও খেলনা">উপহার ও খেলনা</h3><p data-en="Thoughtful gift items and toys." data-bn="মনের মতো উপহার ও খেলনা।">মনের মতো উপহার ও খেলনা।</p><span class="more" data-en="Explore →" data-bn="দেখুন →">দেখুন →</span></a>
+<a class="card fade" style="--c:var(--teal)" href="#catalogue" data-cat="books"><span class="ic">📚</span><h3 data-en="Islamic Books" data-bn="ইসলামিক বই">ইসলামিক বই</h3><p data-en="Books for knowledge and learning." data-bn="জ্ঞান ও শিক্ষার জন্য বই।">জ্ঞান ও শিক্ষার জন্য বই।</p><span class="more" data-en="Explore →" data-bn="দেখুন →">দেখুন →</span></a>
+</div></div></section>
+
+<section class="alt" id="catalogue"><div class="wrap">
+<div class="eyebrow" data-en="Digital catalogue" data-bn="ডিজিটাল ক্যাটালগ">ডিজিটাল ক্যাটালগ</div>
+<h2 data-en="What You’ll Find at Heaven" data-bn="হেভেনে যা পাবেন">হেভেনে যা পাবেন</h2>
+<p class="lead" data-en="Search or filter. Tap any item to ask price &amp; availability on WhatsApp." data-bn="খুঁজুন বা ফিল্টার করুন। যেকোনো পণ্যে ট্যাপ করে WhatsApp-এ দাম ও প্রাপ্যতা জানুন।">খুঁজুন বা ফিল্টার করুন। যেকোনো পণ্যে ট্যাপ করে WhatsApp-এ দাম ও প্রাপ্যতা জানুন।</p>
+<div class="ctrl">
+<input id="q" type="search" placeholder="পণ্য খুঁজুন…" data-ph-en="Search products…" data-ph-bn="পণ্য খুঁজুন…" aria-label="Search">
+<div class="chips" id="chips">
+<button class="chip on" data-f="all" data-en="All" data-bn="সব">সব</button>
+<button class="chip" data-f="stationery" data-en="Stationery" data-bn="স্টেশনারি">স্টেশনারি</button>
+<button class="chip" data-f="food" data-en="Food" data-bn="খাবার">খাবার</button>
+<button class="chip" data-f="gifts" data-en="Gifts &amp; Toys" data-bn="উপহার ও খেলনা">উপহার ও খেলনা</button>
+<button class="chip" data-f="books" data-en="Islamic Books" data-bn="ইসলামিক বই">ইসলামিক বই</button>
+</div></div>
+<div class="grid prod" id="prod"></div>
+<div class="empty" id="empty" data-en="Nothing matched. Ask us on WhatsApp — we may have it." data-bn="কিছু পাওয়া যায়নি। WhatsApp-এ জিজ্ঞাসা করুন — হয়তো আমাদের কাছে আছে।">কিছু পাওয়া যায়নি। WhatsApp-এ জিজ্ঞাসা করুন — হয়তো আমাদের কাছে আছে।</div>
+<p class="note" data-en="Detailed food list, brands and prices coming soon." data-bn="খাবারের বিস্তারিত তালিকা, ব্র্যান্ড ও দাম শিগগিরই আসছে।">খাবারের বিস্তারিত তালিকা, ব্র্যান্ড ও দাম শিগগিরই আসছে।</p>
+</div></section>
+
+<section id="services"><div class="wrap">
+<div class="eyebrow" data-en="Document services" data-bn="ডকুমেন্ট সেবা">ডকুমেন্ট সেবা</div>
+<h2 data-en="Our Services" data-bn="আমাদের সেবাসমূহ">আমাদের সেবাসমূহ</h2>
+<p class="lead" data-en="Quick, reliable help for your documents." data-bn="আপনার ডকুমেন্টের জন্য দ্রুত ও নির্ভরযোগ্য সহায়তা।">আপনার ডকুমেন্টের জন্য দ্রুত ও নির্ভরযোগ্য সহায়তা।</p>
+<div class="grid svc">
+<div class="card fade" style="--c:var(--blue)"><span class="ic">🖨️</span><h3 data-en="Printing" data-bn="প্রিন্টিং">প্রিন্টিং</h3><p data-en="Printing services" data-bn="প্রিন্টের কাজ">প্রিন্টের কাজ</p></div>
+<div class="card fade" style="--c:var(--orange)"><span class="ic">📄</span><h3 data-en="Photocopy" data-bn="ফটোকপি">ফটোকপি</h3><p data-en="Document copying" data-bn="ডকুমেন্ট কপি">ডকুমেন্ট কপি</p></div>
+<div class="card fade" style="--c:var(--pink)"><span class="ic">📎</span><h3 data-en="Binding" data-bn="বাইন্ডিং">বাইন্ডিং</h3><p data-en="Document binding" data-bn="ডকুমেন্ট বাঁধাই">ডকুমেন্ট বাঁধাই</p></div>
+<div class="card fade" style="--c:var(--teal)"><span class="ic">🛡️</span><h3 data-en="Lamination" data-bn="ল্যামিনেশন">ল্যামিনেশন</h3><p data-en="Document protection" data-bn="ডকুমেন্ট সুরক্ষা">ডকুমেন্ট সুরক্ষা</p></div>
+<div class="card fade" style="--c:var(--gold)"><span class="ic">💻</span><h3 data-en="Online Form Fill-up" data-bn="অনলাইন ফরম পূরণ">অনলাইন ফরম পূরণ</h3><p data-en="Online application assistance" data-bn="অনলাইন আবেদনে সহায়তা">অনলাইন আবেদনে সহায়তা</p></div>
+</div></div></section>
+
+<section class="alt" id="about"><div class="wrap about">
+<div class="fade">
+<div class="eyebrow" data-en="About Heaven" data-bn="হেভেন সম্পর্কে">হেভেন সম্পর্কে</div>
+<h2 data-en="More Than a Store, A Part of Your <span class='grad'>Everyday Life.</span>" data-bn="শুধু দোকান নয়, আপনার <span class='grad'>প্রতিদিনের অংশ।</span>">শুধু দোকান নয়, আপনার <span class="grad">প্রতিদিনের অংশ।</span></h2>
+<p class="lead" data-en="Heaven Food &amp; Stationery brings everyday essentials, stationery, food, gifts and useful services together in Chawkbazar." data-bn="হেভেন ফুড অ্যান্ড স্টেশনারি চকবাজারে প্রতিদিনের প্রয়োজনীয় জিনিস, স্টেশনারি, খাবার, উপহার ও দরকারি সেবা এক জায়গায় এনেছে।">হেভেন ফুড অ্যান্ড স্টেশনারি চকবাজারে প্রতিদিনের প্রয়োজনীয় জিনিস, স্টেশনারি, খাবার, উপহার ও দরকারি সেবা এক জায়গায় এনেছে।</p>
+</div>
+<ul class="pts fade">
+<li data-en="Open every day, 9 AM – 12 AM" data-bn="প্রতিদিন খোলা, সকাল ৯টা – রাত ১২টা">প্রতিদিন খোলা, সকাল ৯টা – রাত ১২টা</li>
+<li data-en="Stationery, food, gifts, toys and Islamic books" data-bn="স্টেশনারি, খাবার, উপহার, খেলনা ও ইসলামিক বই">স্টেশনারি, খাবার, উপহার, খেলনা ও ইসলামিক বই</li>
+<li data-en="Printing, photocopy, binding, lamination, form fill-up" data-bn="প্রিন্টিং, ফটোকপি, বাইন্ডিং, ল্যামিনেশন, ফরম পূরণ">প্রিন্টিং, ফটোকপি, বাইন্ডিং, ল্যামিনেশন, ফরম পূরণ</li>
+<li data-en="Convenient location on DC Road" data-bn="ডিসি রোডে সুবিধাজনক অবস্থান">ডিসি রোডে সুবিধাজনক অবস্থান</li>
+</ul>
+</div></section>
+
+<section id="contact"><div class="wrap">
+<div class="eyebrow" data-en="Visit us" data-bn="আমাদের দোকানে আসুন">আমাদের দোকানে আসুন</div>
+<h2 data-en="Visit Heaven Food &amp; Stationery" data-bn="হেভেন ফুড অ্যান্ড স্টেশনারিতে আসুন">হেভেন ফুড অ্যান্ড স্টেশনারিতে আসুন</h2>
+<p class="lead" data-en="Open every day — no weekly holiday." data-bn="সপ্তাহের সাত দিনই খোলা, কোনো সাপ্তাহিক ছুটি নেই।">সপ্তাহের সাত দিনই খোলা, কোনো সাপ্তাহিক ছুটি নেই।</p>
+<div class="vgrid">
+<div><b data-en="Address" data-bn="ঠিকানা">ঠিকানা</b><span data-en="Near Miar Baper Mosque, DC Road, Chawkbazar, Chattogram" data-bn="মিয়ার বাপের মসজিদের কাছে, ডিসি রোড, চকবাজার, চট্টগ্রাম">মিয়ার বাপের মসজিদের কাছে, ডিসি রোড, চকবাজার, চট্টগ্রাম</span></div>
+<div><b data-en="Opening Hours" data-bn="খোলার সময়">খোলার সময়</b><span data-en="Every day · 9:00 AM – 12:00 AM" data-bn="প্রতিদিন · সকাল ৯:০০ – রাত ১২:০০">প্রতিদিন · সকাল ৯:০০ – রাত ১২:০০</span></div>
+<div><b>WhatsApp</b><a href="tel:+8801849784220">01849784220</a></div>
+</div>
+<div class="btns">
+<a class="btn p" target="_blank" rel="noopener" href="https://wa.me/8801849784220" data-en="Chat on WhatsApp" data-bn="WhatsApp-এ মেসেজ করুন">WhatsApp-এ মেসেজ করুন</a>
+<a class="btn s" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Heaven+Food+and+Stationery+DC+Road+Chawkbazar+Chattogram" data-en="Open in Google Maps" data-bn="Google Maps-এ দেখুন">Google Maps-এ দেখুন</a>
+</div>
+</div></section>
+</main>
+
+<footer><div class="wrap">© <span id="yr"></span> Heaven Food &amp; Stationery · <span data-en="All rights reserved" data-bn="সর্বস্বত্ব সংরক্ষিত">সর্বস্বত্ব সংরক্ষিত</span></div></footer>
+
+<div class="bot">
+<a href="#home"><span>🏠</span><i data-en="Home" data-bn="হোম" style="font-style:normal">হোম</i></a>
+<a href="#catalogue"><span>🛍️</span><i data-en="Items" data-bn="পণ্য" style="font-style:normal">পণ্য</i></a>
+<a href="#services"><span>🖨️</span><i data-en="Services" data-bn="সেবা" style="font-style:normal">সেবা</i></a>
+<a href="#contact"><span>📍</span><i data-en="Visit" data-bn="ঠিকানা" style="font-style:normal">ঠিকানা</i></a>
+<a class="wa" target="_blank" rel="noopener" href="https://wa.me/8801849784220"><span>💬</span><i style="font-style:normal">WhatsApp</i></a>
+</div>
+
+<script>
+/* ===== CATALOGUE DATA — add new items here (no prices until confirmed) ===== */
+var CATS={stationery:["Stationery","স্টেশনারি","var(--blue)"],food:["Food","খাবার","var(--orange)"],gifts:["Gifts & Toys","উপহার ও খেলনা","var(--pink)"],books:["Islamic Books","ইসলামিক বই","var(--teal)"]};
+var ITEMS=[
+["stationery","Notebooks","খাতা","📒"],["stationery","Pens","কলম","🖊️"],["stationery","Pencils","পেন্সিল","✏️"],
+["stationery","Geometry Boxes","জ্যামিতি বক্স","📐"],["stationery","Practical Khata","প্র্যাকটিক্যাল খাতা","📓"],
+["stationery","Files & Folders","ফাইল ও ফোল্ডার","🗂️"],["stationery","Calculators","ক্যালকুলেটর","🧮"],["stationery","Wallmate","ওয়ালমেট","🧷"],
+["stationery","School Supplies","স্কুল সামগ্রী","🎒"],["stationery","College Supplies","কলেজ সামগ্রী","🎓"],["stationery","Office Supplies","অফিস সামগ্রী","🖇️"],
+["stationery","Art Materials","আর্ট সামগ্রী","🎨"],["stationery","Craft Materials","ক্রাফট সামগ্রী","✂️"],
+["food","Food Products","খাবারের পণ্য","🍪"],
+["gifts","Gift Items","উপহার সামগ্রী","🎁"],["gifts","Toys","খেলনা","🧸"],
+["books","Islamic Books","ইসলামিক বই","📚"]
+];
+var lang="bn",filter="all",$=function(s){return document.querySelector(s)};
+function render(){
+ var q=$("#q").value.trim().toLowerCase(),h="",n=0;
+ ITEMS.forEach(function(i){
+  if(filter!=="all"&&i[0]!==filter)return;
+  if(q&&(i[1]+" "+i[2]).toLowerCase().indexOf(q)<0)return;
+  n++;var c=CATS[i[0]];
+  h+='<a class="card" style="--c:'+c[2]+'" target="_blank" rel="noopener" href="https://wa.me/8801849784220?text='+encodeURIComponent((lang==="bn"?"আমি জানতে চাই: ":"I’d like to ask about: ")+i[1])+'"><span class="ic">'+i[3]+'</span><div class="tag">'+c[lang==="bn"?1:0]+'</div><h3>'+(lang==="bn"?i[2]:i[1])+'</h3><span class="ask">'+(lang==="bn"?"দাম ও প্রাপ্যতা জানুন →":"Ask price & availability →")+'</span></a>';
+ });
+ $("#prod").innerHTML=h;$("#empty").style.display=n?"none":"block";
+}
+function openNow(){
+ var hr=+new Intl.DateTimeFormat("en-GB",{hour:"numeric",hour12:false,timeZone:"Asia/Dhaka"}).format(new Date())%24;
+ var on=hr>=9;var e=$("#open");
+ e.textContent=on?(lang==="bn"?"এখন খোলা":"Open now"):(lang==="bn"?"সকাল ৯টায় খুলবে":"Opens 9 AM");
+ e.style.opacity=on?1:.7;
+}
+function setLang(l){
+ lang=l;document.documentElement.lang=l;document.body.classList.toggle("bn",l==="bn");
+ document.querySelectorAll("[data-en]").forEach(function(e){e.innerHTML=e.getAttribute("data-"+l)});
+ $("#q").placeholder=$("#q").getAttribute("data-ph-"+l);
+ $("#lang").textContent=l==="bn"?"EN":"বাংলা";
+ render();openNow();
+}
+$("#lang").onclick=function(){setLang(lang==="en"?"bn":"en")};
+$("#q").oninput=render;
+function setFilter(f){filter=f;document.querySelectorAll(".chip").forEach(function(c){c.classList.toggle("on",c.getAttribute("data-f")===f)});render()}
+$("#chips").onclick=function(e){var f=e.target.getAttribute("data-f");if(f)setFilter(f)};
+document.querySelectorAll("[data-cat]").forEach(function(c){c.addEventListener("click",function(){setFilter(c.getAttribute("data-cat"))})});
+/* splash */
+function hide(){$("#splash").classList.add("off")}
+$("#skip").onclick=hide;setTimeout(hide,2400);
+/* floating emoji + marquee */
+var E=["✏️","📒","🍪","🎁","🧸","📚","🖨️","🎨","📐","🍫"],f="";
+for(var i=0;i<14;i++)f+='<span style="left:'+(i*7.3%100)+'%;font-size:'+(22+i%4*8)+'px;animation-duration:'+(18+i*2.3)+'s;animation-delay:-'+(i*3)+'s">'+E[i%E.length]+'</span>';
+$("#float").innerHTML=f;
+var m="<span>✏️ Stationery</span><b>✦</b><span>🍪 Food</span><b>✦</b><span>🎁 Gifts</span><b>✦</b><span>🧸 Toys</span><b>✦</b><span>📚 Islamic Books</span><b>✦</b><span>🖨️ Printing</span><b>✦</b><span>📄 Photocopy</span><b>✦</b><span>🛡️ Lamination</span><b>✦</b>";
+$("#mq").innerHTML=m+m;
+$("#yr").textContent=new Date().getFullYear();
+if("IntersectionObserver" in window){
+ var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}})},{threshold:.1});
+ document.querySelectorAll(".fade").forEach(function(e){io.observe(e)});
+}else{document.querySelectorAll(".fade").forEach(function(e){e.classList.add("in")})}
+setLang("bn");
+</script>
+</body>
+</html>
